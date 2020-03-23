@@ -35,7 +35,11 @@ Follow these steps for completing your project.
 
 ### Instructions and/or completion requirements
 
-Your challenge for this module: write tests for both the `App.js` component and the `Episodesjs` component. Take note of 
+Your challenge for this module: write tests for both the 
+[] `App.js` component and the
+[] `Episodesjs` component. 
+
+Take note of:
 
 [x] where the state is being managed, (in App.js)
 
@@ -52,9 +56,9 @@ The async call being inside the component makes it hard to test the asynchronous
 1. [x] Create a directory called `/api` in the `src` directory
 2. [x] Create a file inside `/api` called `fetchShow.js`
 3. [x] Move `fetchShow` into that new file and export it (fetchShow is in the `useEffect` - pay attention to how this was setting state. You will still need to set state in this effect hook the exact same way...)
-4. [] Import `fetchShow` into `App.js` so you can make your async call from your `useEffect` hook.
-5. [] You will need to `return` the `axios.get` call, _and_ the data inside your `.then()`. This is necessary because when you call `fetchShow` in your useEffect, you need to chain off the promise for a new `.then()`, then you need the data to be returned once the promise is resolved
-6. [] Inside your `.then()` in the `useEffect` hook, set your data again.
+4. [x] Import `fetchShow` into `App.js` so you can make your async call from your `useEffect` hook.
+5. [x] You will need to `return` the `axios.get` call, _and_ the data inside your `.then()`. This is necessary because when you call `fetchShow` in your useEffect, you need to chain off the promise for a new `.then()`, then you need the data to be returned once the promise is resolved
+6. [x] Inside your `.then()` in the `useEffect` hook, set your data again.
 
 - Note that you need `axios` in the new file
 
